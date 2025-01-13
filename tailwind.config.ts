@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss';
+import daysiui from 'daisyui';
 
 export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
@@ -7,5 +8,5 @@ export default {
 		extend: {}
 	},
 
-	plugins: []
+	plugins: [daysiui],
 } satisfies Config;
